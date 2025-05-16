@@ -15,7 +15,7 @@
             db.domain_rate1,
             db.domain_rate2,
             db.brand_mention,
-            rd.ai_type,
+            rd.ai_type AS ai_type,
             rd.json_data
         FROM
             dashboard db
