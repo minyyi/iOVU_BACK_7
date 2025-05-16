@@ -11,7 +11,7 @@ public interface ReportListMapper {
     public List<ReportList> selectAll();
 
     public void insertReportListDTO(ReportListDTO dto);
-    public void insertDashboardDTO(DashboardDTO dto);
+    public void insertDashboardDTO(DashboardDTOO dto);
     public void insertReportDetailDTO(ReportDetailDTO dto);
     public void insertConsultingDTO(ConsultingDTO dto);
     public void insertDomainLinkDTO(DomainLinkDTO dto);

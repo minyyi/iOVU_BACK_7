@@ -31,7 +31,7 @@
 
 
     <!-- ReportDetail 조회 -->
-    <select id="getReportDetailWithKeyword" parameterType="int" resultMap="com.iovu.iovuback.domain.reportExport">
+    <select id="getReportDetailWithKeyword" parameterType="int" resultMap="reportExport">
         SELECT
             rd.report_detail_id,
             rd.report_id,

@@ -59,7 +59,7 @@
         #{link_id}, #{domain_link_id}, #{link}
         )
     </insert>
-    <insert id="insertDashboardDTO" parameterType="com.iovu.iovuback.dto.DashboardDTO">
+    <insert id="insertDashboardDTO" parameterType="com.iovu.iovuback.dto.DashboardDTOO">
         <selectKey keyProperty="dashboard_id" resultType="int" order="BEFORE">
             SELECT dashboard_id_seq.NEXTVAL FROM dual
         </selectKey>

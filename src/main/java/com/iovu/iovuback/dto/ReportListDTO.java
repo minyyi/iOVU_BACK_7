@@ -20,6 +20,6 @@ public class ReportListDTO {
     private Timestamp updated_at;
 
     private List<ReportDetailDTO> report_details_dto;
-    private DashboardDTO dashboard_dto;
+    private DashboardDTOO dashboard_dto;
 
 }

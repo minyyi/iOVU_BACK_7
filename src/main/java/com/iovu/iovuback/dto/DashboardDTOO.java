@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class DashboardDTO {
+public class DashboardDTOO {
     private Integer dashboard_id;
     private Integer report_id;
     private Integer result_summary;

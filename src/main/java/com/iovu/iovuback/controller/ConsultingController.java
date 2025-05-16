@@ -2,7 +2,7 @@ package com.iovu.iovuback.controller;
 
 import com.iovu.iovuback.domain.Consulting;
 import com.iovu.iovuback.service.ConsultingService;
-import org.apache.ibatis.javassist.NotFoundException;
+// import org.apache.ibatis.javassist.NotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

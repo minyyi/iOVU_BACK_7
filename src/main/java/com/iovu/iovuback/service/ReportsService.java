@@ -30,7 +30,7 @@ public class ReportsService {
         reportListMapper.insertReportListDTO(dto);
 
         if (dto.getDashboard_dto() != null) {
-            DashboardDTO dashboard = dto.getDashboard_dto();
+            DashboardDTOO dashboard = dto.getDashboard_dto();
             dashboard.setReport_id(dto.getReport_id());
             reportListMapper.insertDashboardDTO(dashboard);
         }
