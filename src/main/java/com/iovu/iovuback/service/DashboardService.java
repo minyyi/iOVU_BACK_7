@@ -15,7 +15,8 @@ public class DashboardService {
             this.dashBoardMapper = dashBoardMapper;
         }
 
-    public Dashboard getDashboard(Long reportId) {
+    //List로 수정(kim)
+    public List<Dashboard> getDashboard(Long reportId) {
         return dashBoardMapper.getDashboard(reportId);
     }
 

@@ -9,7 +9,8 @@ import java.util.List;
 
 @Mapper
 public interface DashboardMapper {
-    Dashboard getDashboard(@Param("reportId") Long reportId);
+    //List로 수정(kim)
+    List<Dashboard> getDashboard(@Param("reportId") Long reportId);
     public DashboardDTO getDashboardById(@Param("dashboard_id") Integer dashboard_id);
     public List<DashboardDTO> getDashboardDTOByReportDetailId(@Param("report_detail_id") Integer report_detail_id);
 }
